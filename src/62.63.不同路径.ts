@@ -1,3 +1,11 @@
+/**
+ * 
+ * 思路：动态规划
+ * 
+ * 
+ * 时间复杂度：O(N) O(N)时间初始化dp数组，O(N)时间遍历数组。
+ * 空间复杂度：O(N) dp数组需要O(N)的空间
+ */
 function uniquePathsWithObstacles(obstacleGrid: number[][]): number {
   const m = obstacleGrid.length;
   if(m === 0) return 0;
